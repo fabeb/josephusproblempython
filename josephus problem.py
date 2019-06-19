@@ -1,4 +1,18 @@
-n=41 #Number of Persons included (41 standard)
+###############################################################
+#                                                             #
+#        Author: https://github.com/gr0wnedhog                #
+#           Recommended python version: 3.7                   #
+#                                                             #     
+#     My personal attempt at solving the Josephus problem     #
+#              Have fun messing with my code!                 #
+#                                                             #
+#             No additional libraries required!               #
+#                                                             #
+###############################################################
+
+
+
+n=64 #Number of Persons included (41 standard)
 
 def getM(n):
     for x1 in range(1,n): #find next smaller power of 2
